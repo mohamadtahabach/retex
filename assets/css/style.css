@@ -59,7 +59,7 @@ nav ul li a:hover {
     background-image: url('../images/clothes_background.jpg');
     align-items: center; /* Vertikale Ausrichtung */
     justify-content: flex-start; /* Text links ausrichten */
-    height: 80vh; /* Feste Höhe für den Hero-Bereich */
+    height: 80vh;
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -91,48 +91,47 @@ nav ul li a:hover {
 
 .btn {
     background: #DFD035;
-    color: white; /* Weiße Schriftfarbe */
-    padding: 10px 20px; /* Innenabstand */
-    text-decoration: none; /* Keine Unterstreichung */
-    border-radius: 5px; /* Abgerundete Ecken */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-/* Abschnitts-Stile */
 section {
-    padding: 40px 20px; /* Innenabstand für Abschnitte */
+    padding: 40px 20px;
     background: #427db2;
-    margin: 0px 0; /* Abstand zwischen Abschnitten */
+    margin: 0px 0;
 }
 
 /* Footer-Stil */
 footer {
-    text-align: center; /* Zentrierter Text */
-    padding: 20px; /* Innenabstand */
+    text-align: center;
+    padding: 20px;
     background: #427db2;
-    color: white; /* Weiße Schriftfarbe */
+    color: white;
 }
 
 footer a {
-    color: white; /* Weiße Schriftfarbe für Links im Footer */
-    text-decoration: none; /* Keine Unterstreichung */
-    margin: 0 10px; /* Abstand zwischen Links */
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
-/* Vorhandene Stile ... */
 
-/* Neue Stile für den Kontaktbereich */
+
+
 .contact-info {
-    display: flex; /* Flexbox aktivieren */
-    flex-wrap: wrap; /* Zeilenumbruch erlauben, wenn der Platz nicht ausreicht */
-    justify-content: center; /* Zentriert die Elemente */
-    margin: 20px 0; /* Abstand oben und unten */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .contact-info div {
-    margin: 10px 20px; /* Abstand zwischen den einzelnen Kontaktinformationen */
-    text-align: center; /* Zentrierter Text */
+    margin: 10px 20px;
+    text-align: center;
 }
 
-/* Der Play-Button wird in der Mitte des Containers platziert */
+
 .play-btn {
     position: absolute;
     top: 50%;
@@ -145,20 +144,20 @@ footer a {
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
-    display: none; /* Der Button wird zunächst versteckt */
+    display: none;
 }
 
-/* Container für Text und Video */
+
 .sustainability {
     display: flex;
-    align-items: center; /* Vertikal zentrieren */
-    justify-content: space-between; /* Platz zwischen Text und Video */
+    align-items: center;
+    justify-content: space-between;
     padding: 40px;
-    gap: 20px; /* Abstand zwischen den Elementen */
-    flex-wrap: wrap; /* Falls der Bildschirm zu klein ist, werden Elemente umgebrochen */
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/* Linker Bereich mit Text */
+
 .text-container {
     width: 50%;
     min-width: 300px;
@@ -166,19 +165,18 @@ footer a {
     color: white;
 }
 
-/* Rechter Bereich mit Video */
 .video-container {
     position: relative;
-    width: 50%; /* Video kleiner halten */
-    max-width: 600px; /* Maximale Breite, damit es nicht zu groß wird */
+    width: 50%;
+    max-width: 600px;
     margin-right: 50px;
 }
 
 /* Video selbst */
 video {
-    width: 100%; /* Passt sich dem Container an */
-    height: auto; /* Proportionen beibehalten */
-    border-radius: 10px; /* Optional: Abgerundete Ecken */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Play-Button in der Mitte des Videos */
